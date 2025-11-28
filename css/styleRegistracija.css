@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#postavitev {
+  width: 100%;
+  max-width: 350px;
+  margin-top: 16px;
+}
+
+#glavni {
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+#spodnji {
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  text-align: center;
+  padding: 25px;
+  background: white;
+  margin-top: 10px;
+}
+
+#spodnji a {
+  color: #4d7df7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#slika {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 175px;
+  height: 51px;
+  position: relative;
+}
+
+#logo {
+  width: 175px;
+  height: auto;
+  display: block;
+}
+#slika button{
+	 position:absolute;
+     left:145px;
+     width:30px;
+     height:25px;
+     background: transparent;
+     border:none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 280px;
+}
+
+.password-wrapper input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 40px; /* space for eye icon */
+}
+
+.password-wrapper img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.password-wrapper img:hover {
+  opacity: 1;
+}
+
+
+#number, #password, #name, #username {
+  width: 90%;
+  max-width: 280px;
+  margin-bottom: 8px;
+}
+
+#number input, #password input, #name input, #username input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding-left: 10px;
+  background: #fafafa;
+  font-size: 12px;
+}
+
+#next {
+  width: 90%;
+  max-width: 280px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#buttonnext {
+  width: 100%;
+  height: 36px;
+  background: #808DFB;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#facebook {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 280px;
+  height: 36px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4150F7;
+}
+
+#facebook img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.or {
+  margin: 0 18px;
+  color: #737373;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+#text {
+  text-align: center;
+  color: #737373;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 20px 0;
+}
+
+#people, #terms, #report {
+  text-align: center;
+  margin: 20px 10px;
+  color: gray;
+  font-size: 12px;
+  
+}
+
+#people a, #terms a, #report a{
+  color: #4150F7;
+  text-decoration: none;
+}
+
+#people a:hover, #terms a:hover, #report a:hover{
+  text-decoration: none;
+}
+
+#footer {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 10px;
+}
+
+li a, li p {
+  font-size: 11px;
+  color: gray;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: #0095f6;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited {
+  color: #4150F7; 
+}
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #postavitev {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  #glavni {
+    border: none;
+    box-shadow: none;
+    padding: 15px;
+  }
+
+  #footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer li {
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang='sl'>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign up • Instagram</title>
+ <meta charset="UTF-8">
+<link rel="stylesheet" href="css/styleRegistracija.css" type="text/css" media="all" />
+<link rel="icon" href="images/favicon.ico" type="image/icon-x">
+</head>
+<body>
+	<div id="postavitev">
+  <div id="glavni">
+    <div id="slika">
+      <img id="logo" src="images/instagram.svg" alt="instagram">
+			<button onclick="credits()"></button>
+    </div>
+    <div id="text">
+      <p>Sign up to see photos and videos<br> from your friends.</p>
+    </div>
+	<button id="facebook">
+		<img id="fb" src="images/facebook.svg" alt="facebook">
+		Log in with Facebook
+	</button>
+
+    <div class="divider">
+      <div class="line"></div>
+      <div class="or">OR</div>
+      <div class="line"></div>
+    </div>
+
+    <form id="loginForm" action="index.html">
+      <div id="number">
+        <input placeholder="Mobile number or email" maxlength="24">
+      </div>
+
+      <div id="password" class="password-wrapper">
+		<input id="passwordInput" placeholder="Password" type="password" maxlength="24">
+		<img id="togglePassword" src="images/eye-closed.svg" alt="Show/Hide">
+	</div>
+
+
+      <div id="name">
+        <input placeholder="Full Name" maxlength="24">
+      </div>
+
+      <div id="username">
+        <input placeholder="Username" maxlength="24">
+      </div>
+
+      <div id="people">
+        <p>People who use our service may have uploaded<br> your contact information to Instagram. <a href="#">Learn More</a></p>
+      </div>
+
+      <div id="terms">
+        <p>By signing up, you agree to our <a href="#">Terms</a>. Learn how<br> we collect, use and share your data in our <a href="#">Privacy<br> Policy</a> and how we use cookies and similar<br> technology in our <a href="#">Cookies Policy</a>.</p>
+      </div>
+
+      <div id="next">
+        <button type="submit" id="buttonnext">Next</button>
+      </div>
+    </form>
+	<div id="report"><p>You can also <a href="#">report content you believe is unlawful</a> in<br/> your country without logging in.</p>
+	</div>
+	
+
+  </div>
+
+  <div id="spodnji">
+    <p>Have an account? <br/><a href="index.html">Log in</a></p>
+  </div>
+</div>
+
+<div id="footer">
+  <ul>
+    <li><a href="#">Meta</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">API</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Cookie settings</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">Instagram Lite</a></li>
+    <li><a href="#">Meta AI</a></li>
+    <li><a href="#">Meta AI Articles</a></li>
+    <li><a href="#">Threads</a></li>
+    <li><a href="#">Contact Uploading & Non-Users</a></li>
+    <li><a href="#">Meta verified</a></li>
+  </ul>
+  <ul id="f2">
+    <li><p>English</p></li>
+    <li><p>© 2025 Instagram from Meta</p></li>
+  </ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/scriptSignUp.js"></script>
+</body>
+</html>

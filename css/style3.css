@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  
+}
+#postavitev{
+  width: 100%;
+  max-width: 400px;
+  margin-top: 16px;
+  flex-grow: 1;
+}
+
+#glavni{
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin-top: 30%;
+  padding: 20px;
+  
+}
+#naslov{
+	width: 100%;
+    height: 40px;
+	margin: 20px;
+	margin-bottom: 40px;
+}
+#opis{
+	width: 100%;
+	height: 40px;
+	margin: 20px;
+	margin-left: 40px;
+	color: #808080;
+}
+
+#buttonnext{
+  width: 200px;
+  height: 36px;
+  background: #808DFB;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
+}

@@ -1,0 +1,292 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  
+}
+
+#postavitev{
+  width: 100%;
+  max-width: 350px;
+  margin-top: 16px;
+  flex-grow: 1;
+}
+
+#glavni{
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin-top: 30%;
+  
+}
+
+#spodnji{
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  text-align: center;
+  padding: 22px;
+  background: white;
+  margin-top: 10px;
+}
+#spodnji a{
+	color: #4d7df7;
+	text-decoration:none;
+}
+	
+
+#slika {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  width: 175px;
+  height: 51px;
+  position: relative;
+  
+}
+
+#logo {
+  width: 175px;
+  height: auto;
+  display: block;
+}
+#slika button{
+	position:absolute;
+    left:145px;
+    width:30px;
+    height:25px;
+    background: transparent;
+    border:none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+#username{
+  width: 90%;
+  max-width: 280px;
+  margin-bottom: 8px;
+}
+
+#username input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding-left: 10px;
+  background: #fafafa;
+  font-size: 12px;
+}
+
+#password{
+  width: 90%;
+  max-width: 280px;
+  margin-bottom: 8px;
+}
+
+#password input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding-left: 10px;
+  background: #fafafa;
+  font-size: 12px;
+}
+.password-wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 280px;
+}
+
+.password-wrapper input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.password-wrapper img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.password-wrapper img:hover {
+  opacity: 1;
+}
+#login{
+  width: 90%;
+  max-width: 280px;
+  margin-top: 15px;
+}
+
+#buttonlogin{
+  width: 100%;
+  height: 36px;
+  background: #808DFB;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+}
+
+.divider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 280px;
+  margin-top: 20px;
+}
+
+.line{
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.or{
+  margin: 0 18px;
+  color: #737373;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 90%;
+  max-width: 280px;
+}
+
+#facebook a{
+  color: #4d8ef7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#fb{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+#forgot{
+  margin-top: 15px;
+  text-align: center;
+}
+
+#forgot a{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+#forgot a:hover{
+  text-decoration: underline 2px;
+}
+
+#text{
+  text-align: center;
+  margin: 20px 10px;
+}
+
+#text p{
+  color: gray;
+  font-size: 12px;
+}
+
+#text a{
+  color: #5495f6;
+  text-decoration: none;
+}
+
+#text a:hover{
+  text-decoration: underline;
+}
+
+#footer{
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  margin: 5px 10px;
+}
+
+li a, li p{
+  font-size: 11px;
+  color: gray;
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px){
+  body{
+    padding: 10px;
+  }
+
+  #postavitev{
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  #glavni{
+    border: none;
+    box-shadow: none;
+    padding: 15px;
+  }
+
+  #footer ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer li{
+    margin: 5px 0;
+  }
+}
