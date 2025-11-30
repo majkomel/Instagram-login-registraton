@@ -21,7 +21,7 @@ This project was created for an assignment where the objective was to replicate 
 
 | Original Instagram | My Replica |
 |-------------------|------------|
-| ![Original](path/to/original-image.png) | ![My Version](readme_images/login-replica.png) |
+| ![Original](readme_images/login-original.png) | ![My Version](readme_images/login-replica.png) |
 
 
 ##  Preview
