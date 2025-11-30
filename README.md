@@ -9,8 +9,8 @@ A simple, clean replica of Instagram's login and sign-up pages. This project foc
 
 ##  Technologies Used
 
-* **HTML5** for structure
-* **CSS3** for styling
+* **HTML** for structure
+* **CSS** for styling
 * **JavaScript** needed for form interactions
 
 ##  Purpose
