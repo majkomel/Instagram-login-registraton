@@ -28,3 +28,7 @@ https://majkomel.github.io/Instagram-login-registraton/
 
 * Password: Password2025
 
+## comparison
+
+
+comparison of the original form and my replica:
