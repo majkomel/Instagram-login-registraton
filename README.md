@@ -19,7 +19,10 @@ This project was created for an assignment where the objective was to replicate 
 
 ##  Preview
 
-˛˛˛
+
 https://majkomel.github.io/Instagram-login-registraton/
-˛˛˛
+
+**Username and password combination for testing:**
+*Username: username2025
+*Password: Password2025
 
